@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal web development portfolio showcasing projects, skills, and contact information.">
+  <title>My Portfolio | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">My<span>Portfolio</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I'm <span class="accent">Your Name</span>.<br>I build for the web.</h1>
+          <p class="intro">I'm a web development learner who enjoys turning ideas into clean, useful, and responsive websites. I'm building my skills one project at a time.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View My Projects <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="quick-skills"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative coding illustration">
+          <div class="code-window">
+            <div class="window-dots"><i></i><i></i><i></i><span>hello-world.js</span></div>
+            <pre><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Your Name"</span>,
+  curious: <span class="code-orange">true</span>,
+  learning: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  build() {
+    <span class="code-purple">return</span> <span class="code-green">"something great"</span>;
+  }
+};</pre>
+            <div class="code-footer"><span class="pulse"></span> Always learning, always building</div>
+          </div>
+          <div class="floating-badge">✦ &nbsp; Made with curiosity</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Learning today. <span class="accent">Building tomorrow.</span></h2>
+        <div class="about-grid">
+          <p class="about-text">I'm an aspiring web developer learning how to create accessible, attractive, and mobile-friendly websites. I like solving problems, experimenting with code, and seeing a project come together from the first idea to the finished page. My goal is to keep improving my front-end skills and build real-world projects that are useful to people.</p>
+          <div class="skills-panel">
+            <h3>Skills I'm developing</h3>
+            <div class="skill"><div><span>HTML5</span><span>Structure & accessibility</span></div><div class="track"><i style="width:85%"></i></div></div>
+            <div class="skill"><div><span>CSS3</span><span>Layout & responsive design</span></div><div class="track"><i style="width:78%"></i></div></div>
+            <div class="skill"><div><span>JavaScript</span><span>DOM & interactions</span></div><div class="track"><i style="width:58%"></i></div></div>
+            <div class="skill"><div><span>Git & GitHub</span><span>Version control</span></div><div class="track"><i style="width:52%"></i></div></div>
+          </div>
+        </div>
+        <div class="goal-strip"><span class="goal-icon">◎</span><div><h3>My goal</h3><p>Grow into a confident developer by practicing consistently, learning from feedback, and publishing projects online.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">WHAT I'VE BEEN WORKING ON</p><h2>Featured projects</h2></div><p>Small projects, real progress.<br>Each one helps me learn something new.</p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-preview preview-one"><span class="preview-label">01 / LANDING PAGE</span><div class="mini-store"><div class="mini-logo">FORMA</div><div class="mini-circle"></div><strong>Everyday,<br>elevated.</strong><small>Thoughtful essentials for your day.</small><span class="mini-button">Explore collection →</span></div></div>
+            <div class="project-info"><div class="project-top"><span class="project-type">WEB DESIGN</span><span class="project-number">01</span></div><h3>Responsive Product Landing Page</h3><p>A modern product page with a hero section, feature cards, and a layout that adapts to mobile and desktop screens.</p><div class="tags"><span>HTML</span><span>CSS Grid</span><span>Flexbox</span></div><a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-two"><span class="preview-label">02 / JAVASCRIPT APP</span><div class="todo-demo"><div class="todo-title">My tasks <span>✳</span></div><div class="todo-sub">A little progress every day.</div><div class="todo-item checked"><i>✓</i> Learn HTML basics</div><div class="todo-item"><i></i> Practice JavaScript</div><div class="todo-item"><i></i> Publish a project</div><div class="todo-add">+ Add a new task</div></div></div>
+            <div class="project-info"><div class="project-top"><span class="project-type">INTERACTIVE APP</span><span class="project-number">02</span></div><h3>Interactive To-Do List</h3><p>A task manager where users can add tasks, mark them complete, and remove tasks using JavaScript DOM methods.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-three"><span class="preview-label">03 / PERSONAL BRAND</span><div class="mini-portfolio"><div class="mini-avatar">YN</div><strong>Creative ideas.<br>Made digital.</strong><small>Web developer in progress</small><div class="mini-lines"><i></i><i></i><i></i></div></div></div>
+            <div class="project-info"><div class="project-top"><span class="project-type">PORTFOLIO</span><span class="project-number">03</span></div><h3>Personal Portfolio Website</h3><p>This portfolio brings together my introduction, skills, project work, and contact details in one responsive website.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="project-note">Note: Replace the example GitHub links with your own repository URLs when your projects are uploaded.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Have a project<br>in mind? <span class="accent">Say hello.</span></h2><p class="contact-copy">I'm always happy to connect with other learners, hear feedback, and explore opportunities to grow.</p><div class="contact-links"><a href="mailto:your.email@example.com"><span>✉</span> your.email@example.com</a><a href="https://github.com/" target="_blank" rel="noreferrer"><span>⌘</span> GitHub profile ↗</a></div></div>
+        <form class="contact-form" id="contact-form">
+          <h3>Send a message</h3>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Smith" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" required>
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Tell me what you have in mind..." required></textarea>
+          <button class="button primary submit-button" type="submit">Prepare message <span>↗</span></button>
+          <p class="form-status" id="form-status" aria-live="polite">This demo opens your email app; it does not send data to a server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-content"><a class="logo" href="#home">My<span>Portfolio</span></a><p>Designed & built with care · <span id="year"></span></p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
